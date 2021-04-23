@@ -15,6 +15,7 @@ header > h1 {
 body{
     background-color: darkslateblue;
 }
+
 .score-board{
     border: 2px solid white;
     width: 200px;
@@ -85,5 +86,18 @@ body{
     color: aliceblue;
     margin-top: 15px;
 
+}
+.green-glow{
+    border: 4px solid rgb(196, 246, 59);  
+    box-shadow: 0 0 10px rgb(169, 228, 7);
+}
+.red-glow{
+    border: 4px solid rgb(243, 26, 6);  
+    box-shadow: 0 0 10px rgb(216, 37, 13);
+}
+
+.grey-glow{
+    border: 4px solid rgb(32, 30, 30);  
+    box-shadow: 0 0 10px rgb(14, 5, 4);
 }
 
