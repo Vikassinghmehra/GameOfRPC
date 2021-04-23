@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box; 
+}
+header{
+    background-color: white;
+    padding: 20px;
+}
+header > h1 {
+    text-align: center;
+    font-family: Zen Dots, monospace;
+}
+body{
+    background-color: darkslateblue;
+}
+.score-board{
+    border: 2px solid white;
+    width: 200px;
+    margin: 20px auto;
+    color: white;
+    text-align: center;
+    font-size: 46px;
+    border-radius: 4px;
+    padding: 15px 20px;
+    font-family: Zen Dots, monospace;
+    position: relative;
+}
+
+.badge{
+    background: crimson;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Zen Dots, monospace;
+}
+
+#user-id{
+    position: absolute;
+    top:33px;
+    left: -30px;
+
+}
+#comp-id{
+    position: absolute;
+    top:33px;
+    right: -30px;
+
+
+}
